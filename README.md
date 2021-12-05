@@ -12,6 +12,8 @@ O teste consiste no desenvolvimento de uma To Do List básica. Procuramos inclui
 3. Cuidado com o funcionamento das coisas;
 4. Versionamento.
 
+**Obs:** Não será avaliado o design das telas entregues, porém sugerimos utilizar como referência os boards da plataforma Trello.
+
 ### O que deve ser desenvolvido? 👨‍💻
 Como já mencionado, o sistema a ser desenvolvido neste teste é uma To Do List. Nela deve ser possível cadastrar as colunas do seu To Do, como por exemplo a fazer, fazendo, feito e etc. As colunas devem ser cadastradas informando nome da coluna e sua a prioridade.
 A prioridade das colunas deve ser utilizada para definir a ordem de exibição das mesmas. Ou seja, uma coluna com prioridade 1, deve ser exibida antes de uma coluna cadastrada com prioridade 2 e assim por diante.

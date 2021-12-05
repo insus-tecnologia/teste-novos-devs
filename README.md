@@ -9,20 +9,20 @@ O teste consiste no desenvolvimento de uma To Do List básica. Procuramos inclui
 ### O que será avaliado? :heavy_check_mark:
 1. Qualidade e clareza do código;
 2. Organização;
-3. Cuidado com o funcionamento das coisas;
+3. Cuidado com o funcionamento do software;
 4. Versionamento.
 
 **Obs:** Não será avaliado o design das telas entregues, porém sugerimos utilizar como referência os boards da plataforma Trello.
 
 ### O que deve ser desenvolvido? 👨‍💻
 Como já mencionado, o sistema a ser desenvolvido neste teste é uma To Do List. Nela deve ser possível cadastrar as colunas do seu To Do, como por exemplo a fazer, fazendo, feito e etc. As colunas devem ser cadastradas informando nome da coluna e sua a prioridade.
-A prioridade das colunas deve ser utilizada para definir a ordem de exibição das mesmas. Ou seja, uma coluna com prioridade 1, deve ser exibida antes de uma coluna cadastrada com prioridade 2 e assim por diante.
+**Importante:** A prioridade das colunas deve ser utilizada para definir a ordem de exibição das mesmas. Ou seja, uma coluna com prioridade 1, deve ser exibida antes de uma coluna cadastrada com prioridade 2 e assim por diante.
 
 Após cadastrar as colunas, deve ser possível cadastrar e remover tarefas na sua To Do List. Além disso, deve ser possível alterar o status das tarefas.
 O status de uma tarefa é a coluna em que ela se encontra no To Do. Sempre que uma tarefa for cadastrada, ela deve ser vinculada/exibida na coluna de menor prioridade.
 **Importante:** Não é necessário trabalhar com drag and drop para mover as tarefas entre as colunas, mas sempre que o status de uma tarefa for alterado ela deve ser exibida na coluna correta.
 
-Além disso, deve ser possível excluir os status/colunas do seu To Do List, mas tome cuidado para não permitir exclusão de status que possuem tarefas.
+Além disso, deve ser possível excluir os status/colunas do seu To Do List, **mas tome cuidado para não permitir exclusão de status que possuem tarefas.**
 
 **Para facilitar sua avaliação de que seu To Do List cumpre com todos os requisitos, listamos tudo aqui em tópicos. Seu To Do List deve:**
 1. Cadastrar e remover status/colunas com seu nome e prioridade (numérico);
@@ -36,7 +36,8 @@ São requisitos obrigatórios para execução do teste:
 
 1. Backend deve ser feito em PHP 7.0+ ou NodeJS, podendo ser utilizados frameworks a critério do desenvolvedor;
 2. Deve ser utilizado banco de dados relacional para armazenamento das informações. Recomendamos MariaDB ou MySQL;
-3. O front-end deve ser desenvolvido utilizando HTML, CSS e JS. Caso queira, o desenvolvedor pode utilizar frameworks JS, webpack, SASS e tecnologias do tipo. **NÃO utilizar JQuery**, uma vez que está é uma tecnologia fora da stack da Insus.
+3. O front-end deve ser desenvolvido utilizando HTML, CSS e JS. Caso queira, o desenvolvedor pode utilizar frameworks JS, como ReactJs, Vue e/ou Angular.
+4. Para o css, dê preferência a sua lib que tenha mais experiência, seja bootstrap, MD, tailwind, styled components entre outros.
 
 Não é um requisito obrigatório mas será considerado um plus a utilização de docker e docker-compose.
 

@@ -38,7 +38,7 @@ São requisitos obrigatórios para execução do teste:
 
 Não é um requisito obrigatório mas será considerado um plus a utilização de docker e docker-compose.
 
-# Como entrego meu teste? :package:
+## Como entrego meu teste? :package:
 1. Faça um fork deste repositório para sua conta no GitHub, deixando o teste como privado;
 2. Desenvolva o teste utilizando a organização de branches com a qual estiver mais confortável;
 3. Dê acesso ao seu repositório para as contas RaphaelBatagini e felipefanucchi.

@@ -28,7 +28,7 @@ Além disso, deve ser possível excluir os status/colunas do seu To Do List, **m
 1. Cadastrar e remover status/colunas com seu nome e prioridade (numérico);
 2. Cadastrar tarefas e permitir alterar seu status;
 3. Remover tarefas cadastradas;
-4. Quando as tarefas quando tem seu status alterado devem ser movidas para a coluna correta;
+4. Quando as tarefas tem seu status alterado devem ser movidas para a coluna correta;
 5. Não deve ser possível remover um status que possua tarefas.
 
 ## Requisitos técnicos :electric_plug:
